@@ -8,7 +8,7 @@ struct HeaderView: View {
         HStack{
             TextField("Type a number", text: $enteredstring)
             Button("create a task") {
-                let newTask = Task
+                let newTask = Task(nameOfTask: enteredstring)
                 tasks.append(newTask)
                 }
             }
