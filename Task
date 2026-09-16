@@ -1,0 +1,14 @@
+import SwiftUI
+
+struct Task : Hashable {
+    @State var nameOfTask: String
+}
+
+
+//
+//  Task
+//  GitHubPractice4
+//
+//  Created by Jacob Kurowski on 9/14/26.
+//
+
