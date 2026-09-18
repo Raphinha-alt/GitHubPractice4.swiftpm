@@ -1,8 +1,8 @@
 
 import SwiftUI
 
-struct Task {
-    @State var nameOfTask: String
+struct Task: Hashable {
+    var nameOfTask: String
     var isCompleted: Bool = false
     
 }
